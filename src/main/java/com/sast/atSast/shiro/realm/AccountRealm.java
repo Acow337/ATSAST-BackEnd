@@ -37,6 +37,7 @@ public class AccountRealm extends AuthorizingRealm {
             roles.forEach(role->{
                 simpleAuthorizationInfo.addRole(role);
             });
+            return simpleAuthorizationInfo;
         }
         return null;
     }

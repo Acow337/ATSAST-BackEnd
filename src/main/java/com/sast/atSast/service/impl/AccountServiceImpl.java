@@ -272,4 +272,9 @@ public class AccountServiceImpl implements AccountService {
         accountMapper.deleteAccountByUid(uid);
     }
 
+    @Override
+    public void register(String username, String password, String role) {
+
+    }
+
 }
