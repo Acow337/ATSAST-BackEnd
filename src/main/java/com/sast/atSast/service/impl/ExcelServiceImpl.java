@@ -261,6 +261,7 @@ public class ExcelServiceImpl implements ExcelService {
                         throw new LocalRuntimeException(CustomError.EXCEL_ERROR);
                     }
 
+                    //判断cellNum位置
                     switch (cellNum) {
                         case 0:
                             if (nameMap.containsKey(cellValue)) {
