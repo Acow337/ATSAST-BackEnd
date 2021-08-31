@@ -242,7 +242,7 @@ public class ExcelServiceImpl implements ExcelService {
             if (rowData != null) {
                 int cellCount = rowTitle.getPhysicalNumberOfCells();
                 for (int cellNum = 0; cellNum < cellCount; cellNum++) {
-                    Cell cell = null;
+                    Cell cell = null;git
                     try {
                         cell = rowData.getCell(cellNum);
                         CellType cellType = cell.getCellTypeEnum();
